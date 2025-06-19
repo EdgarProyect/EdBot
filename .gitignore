@@ -1,0 +1,45 @@
+# ⚙️ Entorno
+.env
+.env.*           # Soporte para .env.local, .env.development, etc.
+
+# 📦 Dependencias
+node_modules/
+
+# 🛠️ Builds y temporales
+dist/
+build/
+out/
+tmp/
+temp/
+
+# 🧠 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🛡️ Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# 🧠 IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 📂 Control de versiones de entorno
+*.swp
+*.bak
+*.tmp
+
+# ⚠️ Seguridad
+*.pem
+*.key
+*.crt
+
+# 🚀 Optional: si usás TypeScript
+*.tsbuildinfo
+
+# 🧪 Optional: si usás testing
+coverage/
